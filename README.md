@@ -1,5 +1,3 @@
-# projet_mobile_IA_GL
-
 # MeFormer 📚
 
 **MeFormer** est une application mobile Android développée en Java, destinée à l'apprentissage en ligne. Elle permet aux élèves d'accéder à des contenus pédagogiques, de réaliser des exercices et de suivre leur progression. Elle offre également aux parents des fonctionnalités de suivi afin de les accompagner dans la réussite scolaire de leurs enfants.
@@ -41,7 +39,6 @@ L'application repose sur deux profils d'utilisateurs : les parents et les élèv
 ## 🛠️ Technologies utilisées
 
 - **Langage :** Java
-- **Plateforme :** Android
 - **Environnement de développement :** Android Studio
 - **Qualité du code :** SonarQube
 - **Tests :** tests unitaires
@@ -59,7 +56,7 @@ Avant de lancer le projet, assure-toi de disposer des éléments suivants :
 
 ### Étapes d'installation
 
-1. Cloner le dépôt Git
+1. Cloner le dépôt Git.
 
 2. Ouvrir Android Studio.
 
@@ -71,13 +68,20 @@ Avant de lancer le projet, assure-toi de disposer des éléments suivants :
 
 6. Cliquer sur **Run** pour compiler et lancer l'application.
 
+## 🧪 Tests et qualité du code
 
-Une analyse de la qualité du code a également été réalisée avec SonarQube afin d'évaluer notamment la fiabilité et la maintenabilité.
+Le projet comprend des tests destinés à vérifier le fonctionnement des principales fonctionnalités, notamment :
 
-Ces résultats correspondent à l'exécution des tests décrite dans le rapport et ne constituent pas une mesure de couverture complète du code.
-
+- La validation des identifiants de connexion.
+- La gestion des profils utilisateurs.
+- L'affichage des tableaux de bord.
+- Le calcul et l'affichage de la progression.
+- La validation des adresses e-mail.
+- Les fonctionnalités liées aux rappels.
 
 ## 👨‍💻 À propos
+Une analyse de la qualité du code a également été réalisée avec SonarQube afin d'évaluer notamment la fiabilité et la maintenabilité.
+Ces résultats correspondent à l'exécution des tests décrite dans le rapport et ne constituent pas une mesure de couverture complète du code.
 
 MeFormer est un projet de développement mobile Android consacré à l'apprentissage en ligne et au suivi pédagogique.
 
